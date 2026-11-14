@@ -1,0 +1,37 @@
+# Root files
+*.zip
+*.tar.gz
+cd
+
+# Other projects
+mars pulse main/
+MARS_ML/
+
+# Dependencies
+**/node_modules/
+node_modules/
+
+# Build outputs
+**/dist/
+dist/
+**/build/
+build/
+.vite/
+**/.vite/
+*.timestamp-*
+**/*.timestamp-*
+
+# Environment variables & secrets
+**/.env
+**/.env.local
+**/.env.*.local
+Mars_backend-main/.env
+!.env.example
+!**/.env.example
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
